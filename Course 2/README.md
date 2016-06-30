@@ -1,5 +1,11 @@
-# Coursera Data Science Specialisation 
-This is a repository containing all the information, code and literature collected for the Data Science specialisation of Coursera
+# R programming course
 
-## Some Info 
-The code and information contained in this repository will be mainly the one developed and collected for the Coursera specialisation on Data Science
+This course teaches us the basic tools to start working with R programming language. There are many of books, manuals, tutorials, etc. online, that can be used to complement this course indeed. The programme is structured in four weeks and the material coded while watching the lectures are collected in here accordingly. 
+
+## Week 1:  Getting Started and R Nuts and Bolts
+
+## Week 2: Programming with R
+
+## Week 3: Loop Functions and Debugging
+
+## Week 4: Simulation & Profiling
