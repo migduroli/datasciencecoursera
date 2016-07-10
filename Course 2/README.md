@@ -4,7 +4,7 @@ This course is devoted to studying the basic tools to start working with R progr
 
 ## Week 1:  Getting Started and R Nuts and Bolts
 
-This week is where the very basics of the language is presented. In the folder Week 1 one can finds the *.R files coded while reading the notes to get the hands on:
+This week is where the very basics of the language are presented. In the folder Week 1 one finds the *.R files coded while reading the notes to get the hands on:
 
 * R-language history and Introduction to the console evaluation
 * Data Types: objects, vectors, lists, matrices, factors, missing values (NA and NaN), data frames 
