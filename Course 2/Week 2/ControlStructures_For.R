@@ -22,4 +22,12 @@ for (letter in x)
   print(letter)
 }
 
+# Nested for-loops: seq_len(nrow(x)) and seq_len(ncol(x)) to
+# go through rows and cols
 
+x <- matrix(1:6,2,3)
+for (i in seq_len(nrow(x))) {
+  for (j in seq_len(ncol(x))) {
+    print(x[i,j])
+  }
+}
