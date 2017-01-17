@@ -39,7 +39,7 @@ makeCacheMatrix <- function(x = matrix())
     # getters and setters
     get <- function() x
     set <- function(y) {
-        y <<- y # <<-: search to made through parent 
+        x <<- y # <<-: search to made through parent 
         # environments for an existing 
         # definition of the variable being assigned.
         m <<- NULL
