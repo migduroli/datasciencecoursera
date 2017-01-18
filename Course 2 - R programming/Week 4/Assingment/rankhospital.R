@@ -72,3 +72,13 @@ rankhospital <- function(state, outcome, num = "best")
 # print(rankhospital("MD", "heart attack", "worst"))
 # print(rankhospital("MN", "heart attack", 5000))
 
+# rankhospital("NC", "heart attack", "worst")
+# [1] "WAYNE MEMORIAL HOSPITAL"
+# rankhospital("WA", "heart attack", 7)
+# [1] "YAKIMA VALLEY MEMORIAL HOSPITAL"
+# rankhospital("TX", "pneumonia", 10)
+# [1] "SETON SMITHVILLE REGIONAL HOSPITAL"
+# rankhospital("NY", "heart attack", 7)
+# [1] "BELLEVUE HOSPITAL CENTER"
+
+# rm(list = ls())

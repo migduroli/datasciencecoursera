@@ -75,3 +75,16 @@ rankall <- function(outcome, num = "best")
 head(rankall("heart attack", 20), 10)
 tail(rankall("pneumonia", "worst"), 3)
 tail(rankall("heart failure"), 10)
+
+
+# r <- rankall("heart attack", 4)
+# as.character(subset(r, state == "HI")$hospital)
+# [1] "CASTLE MEDICAL CENTER"
+# 
+# r <- rankall("pneumonia", "worst")
+# as.character(subset(r, state == "NJ")$hospital)
+# [1] "BERGEN REGIONAL MEDICAL CENTER"
+# 
+# r <- rankall("heart failure", 10)
+# as.character(subset(r, state == "NV")$hospital)
+# [1] "RENOWN SOUTH MEADOWS MEDICAL CENTER"
