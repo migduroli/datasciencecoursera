@@ -1,0 +1,31 @@
+---
+title: "Reading HDF5"
+author: "Miguel Duran"
+date: "19 January 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The HDF5 
+
+This lecture is devoted to reading data bases in HDF5 format, a highly structured format that allows us to have <em>groups</em> of data types in a very compact (heirarchical) way.
+
+* Groups have a <em>group name</em> and <em>group symbol table</em>, which has a list of objects in each group
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
