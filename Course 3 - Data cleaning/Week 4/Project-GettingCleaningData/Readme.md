@@ -17,4 +17,4 @@ For this project we need to download the following dataset [Human Activity Recog
 * Appropriately labels the data set with descriptive variable names
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-The outcput after running the script is a txt file called `averages_data.txt` which contains the table of relevant data (which has been submitted)
+The output after running the script is a txt file called `averages_data.txt` which contains the table of relevant data (which has been submitted)
