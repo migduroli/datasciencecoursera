@@ -37,8 +37,8 @@ features.Mean_Std <- grep(".*mean.*|.*std.*", features[,2])
 
 ## This is just to clean a bit the names modifying the -std()- and -meanFreq()- to Std or MeanFreq
 features.Mean_Std.names <- features[features.Mean_Std ,2]
-features.Mean_Std.names = gsub('-mean', 'Mean', features.Mean_Std.names)
-features.Mean_Std.names = gsub('-std', 'Std', features.Mean_Std.names)
+features.Mean_Std.names <- gsub('-mean', 'Mean', features.Mean_Std.names)
+features.Mean_Std.names <- gsub('-std', 'Std', features.Mean_Std.names)
 features.Mean_Std.names <- gsub('[-()]', '', features.Mean_Std.names)
 
 ## Extracting the information we want:
